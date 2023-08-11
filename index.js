@@ -10,7 +10,7 @@ app.listen(PORT, ()=>{
 })
 
 app.get("/", (req, res)=>{
-    res.status(404).send("Hello Sandeep")
+    res.status(200).send("Hello Sandeep")
 })
 
 app.get("/api/v1/instagram", (req, res)=>{
